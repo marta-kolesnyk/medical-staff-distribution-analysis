@@ -35,11 +35,11 @@ Includes monthly flu death counts for each state from 2009 to 2017. Death counts
 - Normalized flu data according to state population.
 
 ## Data Analysis Phases:
-  - Created a research hypothesis, determined the measures of spread for the key variables (standard deviation, mean, outliers)
+  - Created a research hypothesis, determined the measures of spread for the key variables (standard deviation, mean, outliers).
   - Found strong negative correlation between population under 5 years and death rate for this age group.
-  - Conducted statistical hypothesis testing using t-test in Excel
-  - Created temporal and spatial visualizations
-  - Presented key findings and recommendations as a storyboard
+  - Conducted statistical hypothesis testing using t-test in Excel.
+  - Created temporal and spatial visualizations.
+  - Presented key findings and recommendations as a storyboard.
  
 ## Main Findings and Recommendations:
 - The research hypothesis was confirmed - Flu death rates for vulnerable populations (under 5 and over 65 years) is higher than the death rates for the rest of the population (5-64 years). 
