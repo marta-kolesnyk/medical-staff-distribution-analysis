@@ -15,23 +15,25 @@ The agency covers all hospitals in each of the 50 states. The project is planned
 - Prioritize states with large vulnerable populations. Consider categorizing each state as low-, or high-need based on its vulnerable population count.
   
 ## Data Used:
-- **Population Data by Geography **(source: https://www.census.gov/data.html)
+- **Population Data by Geography** (source: https://www.census.gov/data.html)
 Includes yearly population counts for the U.S. counties from 2009 to 2017.
 
 - **Influenza Deaths Dataset** (source: https://wonder.cdc.gov/ucd-icd10.html)
+Includes monthly flu death counts for each state from 2009 to 2017.
 
-Includes monthly flu death counts for each state from 2009 to 2017. Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
+DATA LIMITATION: Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
 
 ## Data Limitations:
-- As 80% of death count data was suppressed and imputed with random values (0-9), the real death counts could have been lower/higher, especially for the age group <5 years, as all their data was suppressed.
+- Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
+- As suppressed values were imputed with random values (1-9), the real death counts could have been lower/higher, especially for the age group <5 years, as data all for this category was suppressed.
 - Death counts for all age groups come from death certificates, that list only one cause of death. If a person had multiple health issues, including flu (or caused by flu), only one issue will be specified. As a result, actual flu-related death counts could be higher.
 
 ## Data Cleaning Process:
-- Both datasets were checked in Excel for data accuracy and consistency using descriptive statistics and Pivot Tables. Inconsistent state namings were replaced.
-- Removed duplicate records from Population dataset (used data grain level County-State-Year).
-- 80% of Death Counts from Influenza Deaths dataset were suppressed by the data source, since they represent identifiable amount of death counts (9 or fewer). I replaced them with the random numbers from 1 to 9, since this data was crucial for the future analysis.
-- Aggregated data by states and year.
-- Combined two datasets using VLOOKUP() function.
+- Both datasets were checked in Excel for data accuracy and consistency using **descriptive statistics** and **Pivot Tables**. Inconsistent state namings were replaced.
+- Removed duplicate records from Population dataset (used **data grain level** County-State-Year).
+- Replaced suppressed values in Flu Deaths Dataset with the random numbers from 1 to 9, since this data was crucial for the future analysis.
+- Aggregated data by states and years.
+- Combined two datasets using **VLOOKUP() function**.
 - Normalized flu data according to state population.
 
 ## Data Analysis Phases:
