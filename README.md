@@ -1,13 +1,13 @@
-# Analysis of the Medical Staff Distribution Across the U.S. for Upcoming Flu Season
+# Analysis of the Medical Staff Distribution across the U.S. for Upcoming Flu Season
 
 ## Overview: 
-During the flu season in the United States, there's a higher number of people getting sick, especially those in vulnerable groups, who might need hospitalization due to serious complications. Hospitals and clinics require extra staff to handle the increased number of patients, which is provided by medical staffing agency.
+During the flu season in the United States, there's a higher number of people who might develop serious complications and will require hospitalization. Hospitals and clinics need extra staff to handle the increased number of patients. This additional personnel is provided by medical staffing agency.
 
 ## Objective: 
 Determine when to send staff, and how many to each state.
 
 ## Scope: 
-The agency covers all hospitals in each of the 50 states of the United States, and the project planned for the upcoming influenza season.
+The agency covers all hospitals in each of the 50 states. The project is planned for the upcoming flu season.
 
 ## Key Questions:
 - What data is needed to inform the timing and spatial distribution of medical personnel throughout the United States?
@@ -15,10 +15,10 @@ The agency covers all hospitals in each of the 50 states of the United States, a
 - Prioritize states with large vulnerable populations. Consider categorizing each state as low-, or high-need based on its vulnerable population count.
   
 ## Data Used:
-- Population Data by Geography (source: https://www.census.gov/data.html)
-
+- **Population Data by Geography **(source: https://www.census.gov/data.html)
 Includes yearly population counts for the U.S. counties from 2009 to 2017.
-- Influenza Deaths Dataset (source: https://wonder.cdc.gov/ucd-icd10.html)
+
+- **Influenza Deaths Dataset** (source: https://wonder.cdc.gov/ucd-icd10.html)
 
 Includes monthly flu death counts for each state from 2009 to 2017. Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
 
