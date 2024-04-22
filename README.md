@@ -30,21 +30,20 @@ Includes monthly flu death counts for each state from 2009 to 2017.
 - Both datasets were checked in Excel for data accuracy and consistency using **descriptive statistics** and **Pivot Tables**. Inconsistent state namings were replaced.
 - Removed duplicate records from Population dataset (used **data grain level** County-State-Year).
 - Replaced suppressed values in Flu Deaths Dataset with the random numbers from 1 to 9, since this data was crucial for the future analysis.
-- Aggregated data by states and years.
+- Aggregated data by states and years using Pivot Table, transformed data.
 - Combined two datasets using **VLOOKUP() function**.
 - Normalized flu data according to state population.
 
-## Data Analysis Phases:
+## Analysis Phases:
   - Created a research hypothesis, determined the measures of spread for the key variables (standard deviation, mean, outliers).
-  - Found strong negative correlation between population under 5 years and death rate for this age group.
   - Conducted statistical hypothesis testing using t-test in Excel.
-  - Created temporal and spatial visualizations.
+  - Created temporal and spatial visualizations in Tableau.
   - Presented key findings and recommendations as a storyboard.
  
 ## Main Findings and Recommendations:
 - The research hypothesis was confirmed - Flu death rates for vulnerable populations (under 5 and over 65 years) is higher than the death rates for the rest of the population (5-64 years). 
 - The medical agency should prioritize states where flu mortlaity rates for vulnerable groups are higher than the country average (more than 0.12%). 13 states were listed as high-need.
-- Mentioned states have irregular flu seasons, with a couple of peak months that change from year to year. Medical personnel should be sent in equal proportions all year round and monitored to redistribute the staff when needed.
+- Mentioned states have irregular flu seasons, with a couple of peak months that change from year to year. Medical personnel should be sent to these places in equal proportions all year round and KPIs (death rate and doctor-to-patient ratio if possible) should be monitored to redistribute the staff when needed.
 
 ## Project Limitations:
 - Having data on the vaccination status of vulnerable population groups would help to analyze the impact of vaccination on flu mortality rates across states. Also, information regarding the number of times people got vaccinated during the year would be useful, as I could compare mortality rates between two groups of people (with one and two doses of vaccine), especially in the states with irregular flu season.
