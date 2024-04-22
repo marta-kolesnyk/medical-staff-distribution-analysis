@@ -1,7 +1,7 @@
 # Analysis of the Medical Staff Distribution across the U.S. for Upcoming Flu Season
 
 ## Overview: 
-During the flu season in the United States, there's a higher number of people who might develop serious complications and will require hospitalization. Hospitals and clinics need extra staff to handle the increased number of patients. This additional personnel is provided by medical staffing agency.
+During the flu season in the United States, there's a higher number of people who might develop serious complications and will require hospitalization. Hospitals and clinics need extra staff to handle the increased number of patients. Medical staffing agency aims to send the reasonable number of the additional personnel.
 
 ## Objective: 
 Determine when to send staff, and how many to each state.
