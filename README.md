@@ -21,8 +21,6 @@ Includes yearly population counts for the U.S. counties from 2009 to 2017.
 - **Influenza Deaths Dataset** (source: https://wonder.cdc.gov/ucd-icd10.html)
 Includes monthly flu death counts for each state from 2009 to 2017.
 
-DATA LIMITATION: Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
-
 ## Data Limitations:
 - Death counts of 9 or fewer people are not allowed to be published, therefore were suppressed (81.7% of the records).
 - As suppressed values were imputed with random values (1-9), the real death counts could have been lower/higher, especially for the age group <5 years, as data all for this category was suppressed.
