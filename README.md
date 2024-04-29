@@ -53,5 +53,5 @@ Includes monthly flu death counts for each state from 2009 to 2017.
 - Project management plan
 - Interim report
 - Final presentation in a form of Tableau storyboard
-- Video presentation: https://go.screenpal.com/watch/c0iZbcVkIdI
+- Video presentation
 
